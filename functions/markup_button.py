@@ -6,7 +6,7 @@ from database.lang_utils import get_message as gm
 
 def music_or_video_keyboard(user_id: int, streaming_status: str):
     keyboard = []
-    number = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+    number = ["𝟏", "𝟐", "𝟑", "𝟒", "𝟓"]
     for count, j in enumerate(number):
         keyboard.append(
             InlineKeyboardButton(
@@ -42,19 +42,19 @@ def start_markup(chat_id: int, bot_username: str):
             [
                 InlineKeyboardButton(gm(chat_id, "helpbutton"), callback_data="cbhelp"),
                 InlineKeyboardButton(
-                    gm(chat_id, "maintainer"), url="https://t.me/NIKHILOWNER"
+                    gm(chat_id, "maintainer"), url="https://t.me/NGAMERxCODER"
                 ),
             ],
             [
                 InlineKeyboardButton(gm(chat_id, "channel"), url=config.CHANNEL_LINK),
                 InlineKeyboardButton(
-                    gm(chat_id, "group_support"), url="https://t.me/dost_hai_sab"
+                    gm(chat_id, "group_support"), url="https://t.me/NGAMERxCODER"
                 ),
             ],
             [
                 InlineKeyboardButton(
                     gm(chat_id, "source_code"),
-                    url="https://github.com/nikhilowner/NIKHIL-OWNER-MUSIC",
+                    url="https://t.me/NGAMERxCODER",
                 )
             ],
         ]
