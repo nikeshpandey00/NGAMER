@@ -1,9 +1,9 @@
 {
   "name": "𝐍𝐈𝐊𝐄𝐒𝐇 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓",
   "description": "Open Source bot to stream media trough Telegram Voice Chat. Powered by PyTgCalls and Pyrogram",
-  "logo": "https://telegra.ph/file/f9a63f0811c00fcbc01bd.jpg",
+  "logo": "",
   "keywords": ["𝐍𝐈𝐊𝐄𝐒𝐇", "musicbot", "video-stream", "videochat", "voicechat", "telegram"],
-  "repository": "https://github.com/nikeshpandey00/music",
+  "repository": "",
   "stack": "container",
   "env": {
     "API_ID": {
